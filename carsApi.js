@@ -13,7 +13,7 @@ res.header(
 );
 next();
 });
-const port = process.env.Port||2410;
+const port = process.env.PORT||2410;
 app.listen(port, () => console.log(`Listening on port ${port}!`));
 
 let {carsData}=require("./carsData.js");
