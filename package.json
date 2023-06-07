@@ -5,6 +5,7 @@
   "main": "carsApi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+     "build" : "echo success",
      "start" :"node carsApi.js"
   },
   "keywords": [],
